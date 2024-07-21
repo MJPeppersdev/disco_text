@@ -1,0 +1,86 @@
+#github-link {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    z-index: 10;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-image: url("mjplogo.png");
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.4;
+    transition: all 0.25s;
+}
+
+#github-link:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 6px #efefef;
+}
+
+body {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    animation: party-time 0.9s infinite;
+}
+
+@keyframes party-time {
+    0% {
+        background-color: #F9C80E;
+    }
+
+    25% {
+        background-color: #F86624;
+    }
+
+    50% {
+        background-color: #EA3546;
+    }
+
+    75% {
+        background-color: #662E9B;
+    }
+
+    100% {
+        background-color: #43BCCD;
+    }
+}
+
+@keyframes dancing-time {
+    0% {
+        background-position: 60% center;
+    }
+
+    25% {
+        background-position: 50% center;
+    }
+
+    50% {
+        background-position: 40% center;
+    }
+
+    75% {
+        background-position: 50% center;
+    }
+
+    100% {
+        background-position: 60% center;
+    }
+}
+
+p {
+    font-size: 13px;
+    line-height: 0.7;
+    background: url("disco.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 400;
+    animation: dancing-time 1s infinite;
+    background-position: 50% center;
+    transition: .4s ease-in-out;
+
+}
